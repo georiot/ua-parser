@@ -9,6 +9,7 @@ user_agent_parsers:
   # must go before Firefox to catch SeaMonkey/Camino
   - regex: '(SeaMonkey|Camino)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)'
 
+
   # Firefox
   - regex: '(Pale[Mm]oon)/(\d+)\.(\d+)\.?(\d+)?'
     family_replacement: 'Pale Moon (Firefox Variant)'
